@@ -9,7 +9,7 @@ func main() {
 }
 
 func sumArray(arr [5]int) int {
-	var sum int = 0
+	var sum = 0
 	for _, value := range arr {
 		sum += value
 	}
