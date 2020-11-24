@@ -14,9 +14,9 @@ func main() {
 统计一个字符串中每个单词出现的次数
 */
 func countWord(str string) map[string]int {
-	var strs []string = strings.Split(str, " ")
+	var strSlice = strings.Split(str, " ")
 	m := make(map[string]int)
-	for _, s := range strs {
+	for _, s := range strSlice {
 		_, ok := m[s]
 		if ok {
 			m[s]++

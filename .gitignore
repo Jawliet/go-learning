@@ -1,6 +1,2 @@
 .DS_Store
-.idea/.gitignore
-.idea/go-learning.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
+.idea/
