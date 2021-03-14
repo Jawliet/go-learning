@@ -23,5 +23,5 @@ func main() {
 			"title": "users/index",
 		})
 	})
-	r.Run(":8080")
+	_ = r.Run(":8080")
 }
